@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Korea Travel Guide 💕</title>
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#ffc0cb">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #fff5f7;
+      color: #333;
+    }
+
+    header {
+      background: #ffc0cb;
+      padding: 20px;
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+    }
+
+    section {
+      padding: 15px;
+    }
+
+    .card {
+      background: white;
+      padding: 15px;
+      margin: 10px 0;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    a {
+      color: #ff69b4;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    iframe {
+      width: 100%;
+      border-radius: 10px;
+      margin-top: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      font-size: 12px;
+      color: gray;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>🇰🇷 Korea Study Trip 💕</header>
+
+<section>
+
+  <div class="card">
+    <h2>📍 Seoul Highlights</h2>
+    <p>Explore the capital city!</p>
+    <ul>
+      <li>🏯 Gyeongbokgung Palace</li>
+      <li>🛍️ Myeongdong Shopping Street</li>
+      <li>🌃 N Seoul Tower</li>
+    </ul>
+    <a href="https://english.visitseoul.net" target="_blank">Official Seoul Guide</a>
+  </div>
+
+  <div class="card">
+    <h2>🌊 Busan Vibes</h2>
+    <p>Beach + city energy</p>
+    <ul>
+      <li>🏖️ Haeundae Beach</li>
+      <li>🎨 Gamcheon Culture Village</li>
+    </ul>
+    <a href="https://www.visitbusan.net" target="_blank">Visit Busan</a>
+  </div>
+
+  <div class="card">
+    <h2>🍜 Must-Try Food</h2>
+    <ul>
+      <li>🔥 Korean BBQ</li>
+      <li>🌶️ Tteokbokki</li>
+      <li>🍗 Korean Fried Chicken</li>
+      <li>🍧 Bingsu (dessert!)</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>🎥 Travel Inspiration</h2>
+    <iframe height="200"
+      src="https://www.youtube.com/embed/1sVnG1mJ2GY"
+      allowfullscreen>
+    </iframe>
+  </div>
+
+  <div class="card">
+    <h2>📸 Photo Spots</h2>
+    <ul>
+      <li>🌸 Cherry blossoms in spring</li>
+      <li>🌙 Hanok villages</li>
+      <li>☕ Cute cafes everywhere</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>🎒 Packing List</h2>
+    <ul>
+      <li>✔️ Comfortable shoes</li>
+      <li>✔️ Portable charger</li>
+      <li>✔️ Travel adapter</li>
+      <li>✔️ Cute outfits 📸</li>
+    </ul>
+  </div>
+
+</section>
+
+<footer>
+  Made for our study group ✈️💕
+</footer>
+
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('service-worker.js');
+  }
+</script>
+
+</body>
+</html>
